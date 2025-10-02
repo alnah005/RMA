@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tenstorrent RMA Flow</title>
     <!-- Favicon placeholder -->
-    <link rel="icon" href="data:image/png;base64,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">
+    <link rel="icon" href="https://tenstorrent.com/apple-icon.png?e23019012eb8ba9b">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
@@ -103,7 +103,7 @@
         <div class="container mx-auto px-4 py-6">
             <div class="flex items-center justify-between">
                 <div class="flex items-center">
-                    <img src="data:image/png;base64,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" alt="Tenstorrent Logo" class="h-8 w-8 mr-3">
+                    <img src="https://tenstorrent.com/apple-icon.png?e23019012eb8ba9b" alt="Tenstorrent Logo" class="h-8 w-8 mr-3">
                     <h1 class="text-2xl font-heavy text-dark">TT-RMA</h1>
                 </div>
                 <nav class="hidden md:flex space-x-6">
@@ -665,10 +665,5 @@
     </script>
 </body>
 </html>
-
-
-
-
-
 
 
